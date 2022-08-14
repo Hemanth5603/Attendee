@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebackground2"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_linearlayout"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        android:paddingTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="50dp"
+            android:fontFamily="@font/seogi"
+            android:text="Class Name :"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginTop="40dp"
+
+            android:fontFamily="@font/seogi"
+            android:text="Roll No. Range:"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/startroll"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_edittext2"
+                android:hint="Start"
+                android:inputType="number"
+                android:maxLength="3"
+                android:paddingStart="15dp"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="▬"
+                android:textColor="#232323"
+                android:textSize="10dp" />
+
+
+            <EditText
+                android:id="@+id/endroll"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/custom_edittext2"
+                android:hint="End"
+                android:inputType="text"
+                android:maxLength="3"
+                android:paddingStart="15dp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/seogi"
+                android:text="Period"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+
+                android:text="*optional"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/period"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext2"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="@integer/material_motion_duration_long_1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/inputerror"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="70dp"
+            android:textColor="@color/Red"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/greetname"
+        android:layout_width="292dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/sans2"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <LinearLayout
+        android:id="@+id/takeattendence"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/takeattendencebutton"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/takeattendencebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/Transparent"
+            android:fontFamily="@font/seogi"
+            android:text="Take Attendence"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/ic_baseline_arrow_forward_24_white" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

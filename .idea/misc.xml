@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/attendence_activity_header.xml" value="0.2545" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/checkbox_text.xml" value="0.2545" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom.xml" value="0.1915" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_button_2.xml" value="0.2545" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_dialog.xml" value="0.1765" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_edittext1.xml" value="0.2545" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_edittext2.xml" value="0.1875" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_excel_bg.xml" value="0.221" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_linearlayout.xml" value="0.2215" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_loading.xml" value="0.2215" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_loginbutton.xml" value="0.2545" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_rowdesign.xml" value="0.143" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_spinner.xml" value="0.237" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_submit.xml" value="0.2395" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_textview1.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/custom_verticalview.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/dialog.xml" value="0.2035" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/getstarted_button.xml" value="0.176" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/gradient_action_bar.xml" value="0.2285" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.2555" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2145" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.2145" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/takeattendencebutton.xml" value="0.204" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/drawable/textview_inperson.xml" value="0.199" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_attendence.xml" value="0.2" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_attendence_sheets.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_getstarted.xml" value="0.4" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_home.xml" value="0.21621621621621623" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_home_screen.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/activity_splash_screen.xml" value="0.21621621621621623" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/app_bar_home.xml" value="0.4" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/content_home.xml" value="0.1810810810810811" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/custom_excel.xml" value="0.4" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/custom_loaddialog.xml" value="0.536" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/custom_opendialog.xml" value="0.4" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/custom_person.xml" value="0.4" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_attendence_sheets.xml" value="0.2009009009009009" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_developer.xml" value="0.2" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_feed_back.xml" value="0.2009009009009009" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_gallery.xml" value="0.21333333333333335" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_how_to_use.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/fragment_slideshow.xml" value="0.21333333333333335" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/header_layout.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/main_content_home.xml" value="0.2" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/layout/nav_header_home.xml" value="0.21621621621621623" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/menu/navigation_items.xml" value="0.264" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2155" />
+        <entry key="..\:/Attendence for Faculty/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

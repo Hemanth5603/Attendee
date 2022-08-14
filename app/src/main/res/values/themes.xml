@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Attendence" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:height">30dp</item>
+        <item name="colorPrimary">@color/lightgreen</item>
+        <item name="colorPrimaryVariant">@color/lightgreen</item>
+        <item name="colorOnPrimary">@color/lightgreen</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightgreen</item>
+        <item name="colorSecondaryVariant">@color/lightgreen</item>
+        <item name="colorOnSecondary">@color/lightgreen</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Attendence.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Theme.Attendence.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Attendence.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

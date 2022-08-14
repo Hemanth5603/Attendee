@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+
+    <item
+        android:id="@+id/attendencedsheets"
+        android:title="Attendence Sheets"
+        android:icon="@drawable/ic_baseline_insert_drive_file_24"/>
+
+    <item
+        android:id="@+id/Instructions"
+        android:title="Instructions"
+        android:icon="@drawable/ic_baseline_menu_book_24" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/Developer"
+                android:title="Developer"
+                android:icon="@drawable/ic_baseline_developer_mode_24"/>
+
+            <item
+                android:id="@+id/feedback"
+                android:title="FeedBack"
+                android:icon="@drawable/ic_baseline_feedback_24"/>
+        </menu>
+    </item>
+</menu>

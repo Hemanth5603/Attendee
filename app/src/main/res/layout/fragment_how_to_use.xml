@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    tools:context=".HowToUse">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="235dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/seogi"
+        android:text="-:Instructions:-"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="363dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/seogi"
+        android:gravity="center"
+        android:text="Its Highly Recommended to Download Microsoft Excel Application for Better Experience"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:background="@drawable/takeattendencebutton"
+        android:text="Download"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ScrollView
+        android:layout_width="356dp"
+        android:layout_height="365dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="1. Select the class name from classs selector."
+                android:textColor="#323232"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="2. Enter the Starting Roll number of
+                Class in first field ,Enter value only in numberical values."
+                android:textColor="#2C2C2C"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="3. Enter the ending roll number of the class in the end
+field ,Currently end roll range is supported between A0 to J9 ."
+                android:textColor="#323232"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:text="please Report for bugs and issues in the Send FeedBack section , Your FeedBack is Extrememly Valuable to us ."
+                android:textColor="#323232"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Also report for UI changes and Enhancements"
+                android:textColor="#323232"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
